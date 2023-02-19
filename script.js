@@ -63,3 +63,12 @@ function calculate() {
   historyItem.textContent = history[history.length - 1];
   historyList.appendChild(historyItem);
 }
+
+function resetHistory() {
+    const historyList = document.getElementById("history-list");
+    historyList.innerHTML = ""; // remove all history list items
+    history = []; // clear history array
+  }
+  
+  const resetBtn = document.getElementById("reset-btn");
+  resetBtn.addEventListener("click", resetHistory);

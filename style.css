@@ -2,6 +2,15 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.resetListBtn{
+    margin: 0 auto; 
+    text-align: center;
+    display: flex;
+}
 
 body {
     margin: 0;
